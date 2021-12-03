@@ -1,3 +1,7 @@
+body{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+}
 .logo{
     width: 120px;
     height: 120px;
@@ -48,15 +52,21 @@ a:hover {
 }
 .cardbody{
     padding: 10px;
-    border: solid #5B6DCD 3px;
+    border: solid #000 2px;
     margin: 15px;
 }
 .container{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
 }
 section{
     margin: 30px;
+}
+.muted{
+    color: #A9A9A9;
+}
+.saving{
+    color: #50C878;
 }
