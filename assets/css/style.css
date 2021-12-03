@@ -1,0 +1,30 @@
+.logo{
+    width: 50px;
+    height: 50px;
+}
+.navbar{
+    list-style: none;
+    display: inline-block;
+    font-weight: bold;
+}
+ul.navbar li {
+    display: inline;
+    font-size: 18px;
+    padding-right: 30px;
+
+}
+ul.line1 li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#000; 
+    text-decoration: underline;
+    cursor:pointer;  
+}
