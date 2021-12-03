@@ -46,3 +46,8 @@ a:hover {
 .text1{
     width: 33%;
 }
+.cardbody{
+    padding: 10px;
+    border: solid #5B6DCD 3px;
+    width: 18%;
+}
