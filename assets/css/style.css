@@ -3,8 +3,9 @@ body{
     font-size: 14px;
 }
 .logo{
-    width: 120px;
+    width: 252px;
     height: 120px;
+    border-radius: 6px;
 }
 nav{
     font-weight: bold;
@@ -69,4 +70,7 @@ section{
 }
 .saving{
     color: #50C878;
+}
+.cardimg{
+    height: 201px;
 }
